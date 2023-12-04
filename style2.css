@@ -1,0 +1,159 @@
+/* importing fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    width: auto;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*------------------------
+ STYLE OF THE TOP BANNER 
+------------------------ */
+.top-section{
+    height: 373px;
+    margin: 4% 6%;
+    background-color: #161616;
+    display: flex;
+    border-radius: 15px;
+}
+
+.Banner-text{
+    width: 45%;
+    height: auto;
+    margin: 30px;
+    color: white;
+}
+
+.Banner-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    transform: scale(1,1);
+}
+
+.Banner-text p{
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.Watch-live{
+    margin-top: 5px;
+    background-color: #DD0000;
+    border: 1px solid #DD0000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.Watch-live a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+
+.Banner-image{
+    margin-top: 30px;
+    padding-bottom: 0px;
+}
+.button-text{
+    font-family: 'Poppins', sans-serif ;
+    text-decoration: none;
+}
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row; 
+    
+}
+.menu{
+    margin-left: 55px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    background-color: #161616; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 15px;
+}
+.menu-button{
+    height: 60px;
+    margin: 15px;
+    border: 1px solid #DD0000;
+    border-radius: 5px;
+    background-color: #DD0000;
+}
+.menu-button a{
+    color: white;
+    font-weight: 700;
+}
+.menu-button:hover{
+    background-color: #f70606;
+    border: 1px solid #f70606;
+        
+} 
+
+
+.vertical-alignment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.vertical-alignment img{
+    margin: 10px;
+    padding-top: 10px;
+    width: 62px;
+}
+.match{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 180px;
+}
+.opponent{
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+}
+.time{
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+}
+footer{
+    margin-top: 10%;
+    background-color: #161616;
+    color: white;
+    height: 400px;
+   
+}
+
+/* ---------------
+----FOOTER STYLES---
+------------------ */
+
+footer h2{
+    margin-bottom: 0px;
+    line-height: 100px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+hr{
+    color: #FFFFFF;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+footer p{
+    margin: 25px 150px;
+}
+.suppliments{
+    font-size: 12px;
+    padding-right: 15px;
+}
